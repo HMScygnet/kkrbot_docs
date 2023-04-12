@@ -2,17 +2,22 @@
 
 ## gpt功能
 ::: tip
-该功能为付费功能，价格为0.015元/条，有需要请联系管理员\
+该功能为付费功能，默认关闭，价格0.015元/1k token\
+每次对话token消耗量与上下文，人格，提问的问题有关，具体参考[openai计费策略](https://openai.com/pricing)\
+有需要请联系管理员开启功能
+:::
+::: err
+该功能严禁ghs，尤其是儿童色情，发现一次永久禁用
 :::
 |指令|说明|
 |-----|-----|
 |rg|用于获取会话的基本信息，包括所有可用人格|
 |rg on/off|用于启用/禁用 bot 对话功能|
 |rg set 人格名|用于切换会话人格|
-|rg new 人格名 人格简介|用于新建会话人格|
-|rg edit 人格名 人格简介|用于修改会话人格|
+|rg new 人格名 人格简介|用于新建会话人格，可以点[这里](https://docs.google.com/spreadsheets/d/1JQNmVH-vlDn2uEPwkjv3iN-zn0PHpQ7RGbgA5T3fxOA/edit)学习怎么写人格简介(需要魔法)|
+|rg edit 人格名 人格简介|用于修改该人格预设|
 |rg del 人格名|删除人格|
-|rg qurey 人格名|查询人格|
+|rg qurey 人格名|查询人格简介|
 |rg reset 人格名|重置人格记忆|
 
 ## 修仙功能
